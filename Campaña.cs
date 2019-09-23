@@ -1,30 +1,40 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace PracticaPolimorfismo
 {
     partial class Program
     {
-        class Campaña 
+        class Campaña
         {
-            public DateTime fechaInicio { get; set; }
+            public List<ICalculable> medios { get; set; }
+            public string nombreCampaña { get; set; }
+            public int presupuesto { get; set; }
 
-            public DateTime fechaFin { get; set; }
 
-            public int Gananacia { get; set; }
-
-            
-
-            public int Cotizacion { get; set; }
-
-           
-
-            private int ObtenerValorMedios()
+            public Campaña(string campaña, int dineroDisponible)
             {
-                
-                return 0;
-               
+                nombreCampaña = campaña;
+                medios = new List<ICalculable>();
+                presupuesto = dineroDisponible;
             }
 
+            public void agregarMedio(ICalculable medio)
+            {
+                medios.Add(medio);
+            }
+
+            public int costoCampnia ()
+            {
+                int costo = 0;
+                foreach (ICalculable m in medios)
+                {
+                    costo = m.costoUnitario * m.tiempoUso;
+                }
+
+                return costo;
+                
+            }
            
         }
     }

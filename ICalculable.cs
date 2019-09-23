@@ -2,13 +2,12 @@
 
 namespace PracticaPolimorfismo
 {
-    partial class Program
-    {
-        interface ICalculable
+
+        internal interface ICalculable
         {
             int costoUnitario { get; set; }
-            DateTime tiempoUso { get; set; }
+            int tiempoUso { get; set; }
+            string nombre { get; set; }
             
         }                    
-    }
 }

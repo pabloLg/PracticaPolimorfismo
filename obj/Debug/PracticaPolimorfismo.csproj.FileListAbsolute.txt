@@ -1,0 +1,7 @@
+C:\Users\Outlet\source\repos\PracticaPolimorfismo\PracticaPolimorfismo\obj\Debug\PracticaPolimorfismo.csprojAssemblyReference.cache
+C:\Users\Outlet\source\repos\PracticaPolimorfismo\PracticaPolimorfismo\obj\Debug\PracticaPolimorfismo.csproj.CoreCompileInputs.cache
+C:\Users\Outlet\source\repos\PracticaPolimorfismo\PracticaPolimorfismo\bin\Debug\PracticaPolimorfismo.exe.config
+C:\Users\Outlet\source\repos\PracticaPolimorfismo\PracticaPolimorfismo\bin\Debug\PracticaPolimorfismo.exe
+C:\Users\Outlet\source\repos\PracticaPolimorfismo\PracticaPolimorfismo\bin\Debug\PracticaPolimorfismo.pdb
+C:\Users\Outlet\source\repos\PracticaPolimorfismo\PracticaPolimorfismo\obj\Debug\PracticaPolimorfismo.exe
+C:\Users\Outlet\source\repos\PracticaPolimorfismo\PracticaPolimorfismo\obj\Debug\PracticaPolimorfismo.pdb

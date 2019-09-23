@@ -6,9 +6,9 @@ namespace PracticaPolimorfismo
     {
         abstract class MedioGrafico : ICalculable
         {
-            public int costoUnitario { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-            public DateTime tiempoUso { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-
+            public int costoUnitario { get ; set; }
+            public int tiempoUso { get ; set; }
+            public string nombre { get ; set ; }
         }
     }
 }
