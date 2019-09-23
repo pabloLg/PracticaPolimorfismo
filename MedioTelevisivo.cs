@@ -4,7 +4,7 @@ namespace PracticaPolimorfismo
 {
     partial class Program
     {
-        abstract class MedioTelevisivo  
+        abstract class MedioTelevisivo  : Medio
         {   
             
             public virtual int CostoSpot { get; set; }           

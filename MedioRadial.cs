@@ -4,11 +4,9 @@ namespace PracticaPolimorfismo
 {
     partial class Program
     {
-        abstract class MedioRadial : ICalculable
+        abstract class MedioRadial
         {
-            public int costoUnitario { get; set ; }
-            public int tiempoUso { get ; set ; }
-            public string nombre { get ; set ; }
+            
         }
     }
 }

@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Campaña.cs" />
     <Compile Include="ICalculable.cs" />
+    <Compile Include="Medio.cs" />
     <Compile Include="Propuesta.cs" />
     <Compile Include="MedioGrafico.cs" />
     <Compile Include="MedioRadial.cs" />
