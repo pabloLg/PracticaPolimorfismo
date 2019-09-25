@@ -6,25 +6,26 @@ namespace PracticaPolimorfismo
     {
         class PropagandaEnDiario : MedioGrafico
         {
-          
-            public int costoDiseñador ;
-            public int costoDiario;           
-            public DateTime fechaCreacion { get; set; }         
+
+              int _costoDiseñador { get; set; }
+             int _costoDiario { get; set; }
+             DateTime _fechaCreacion { get; set; } 
 
             public PropagandaEnDiario(string nombreS,  int diseñador,int diario, int duracion)
             {
                 nombre = nombreS;
-                costoDiseñador = diseñador;
-                costoDiario = diario;
+                _costoDiseñador = diseñador;
+                _costoDiario = diario;
                 tiempoUso = duracion;
-                fechaCreacion = DateTime.Today;
+                _fechaCreacion = DateTime.Today;
                 costoUnitario = calcularCosto();
             }
 
 
             private int calcularCosto()
             {
-                int costo = costoDiseñador + costoDiario * tiempoUso;
+                int costo = _costoDiseñador + _costoDiario * tiempoUso ;
+ ;
                 return costo;
             }
 
@@ -33,3 +34,4 @@ namespace PracticaPolimorfismo
         }
     }
 }
+

@@ -3,8 +3,7 @@ using System.Collections.Generic;
 
 namespace PracticaPolimorfismo
 {
-    partial class Program
-    {
+
         class Campaña
         {
             public List<ICalculable> medios { get; set; }
@@ -37,5 +36,5 @@ namespace PracticaPolimorfismo
             }
            
         }
-    }
+    
 }

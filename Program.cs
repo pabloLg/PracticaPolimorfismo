@@ -13,11 +13,11 @@ namespace PracticaPolimorfismo
         {
 
             PropagandaEnDiario propagandaDiario = new PropagandaEnDiario("aviso publicitario", 50, 1000, 5);
-            var  report = new Reporte<ICalculable>();
+            var  report = new Reporte<ICalculable,int>();
             Campaña campaña = new Campaña("Publicidad" , 20000);
             campaña.agregarMedio(propagandaDiario);
 
-            report.HacerReporte(campaña.medios);
+            report.HacerReporte(campaña.medios,1);
             Console.ReadKey();
         }
     }

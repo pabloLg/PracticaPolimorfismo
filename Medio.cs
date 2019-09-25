@@ -8,8 +8,10 @@ namespace PracticaPolimorfismo
 {
     class Medio : ICalculable
     {
-        public int costoUnitario { get ; set ; }
-        public int tiempoUso { get ; set ; }
-        public string nombre { get ; set ; }
+        public  int costoUnitario { get ; set ; }
+        public  int tiempoUso { get ; set ; }
+        public  string nombre { get ; set ; }
+
+                          
     }
 }
